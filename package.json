@@ -1,7 +1,7 @@
 {
   "name": "manu-magic-app",
   "version": "1.0.0",
-  "main": "expo/AppEntry.js",
+  "main": "src/screens/app.tsx",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
