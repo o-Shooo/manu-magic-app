@@ -5,7 +5,8 @@ const Top = () => {
     <SafeAreaView
       style={{ flex: 1, justifyContent: "center", alignItems: "center" }}
     >
-      <Text>Homeを表示</Text>
+      <Text>献立を表示</Text>
+      {/* <Pressable>献立作成ボタン</Pressable> */}
     </SafeAreaView>
   );
 };
