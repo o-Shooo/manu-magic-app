@@ -1,14 +1,13 @@
 import { SafeAreaView, Text } from "react-native";
 
-const Top = () => {
+const CreateManu = () => {
   return (
     <SafeAreaView
       style={{ flex: 1, justifyContent: "center", alignItems: "center" }}
     >
-      <Text>献立を表示</Text>
-      {/* <Pressable>献立作成ボタン</Pressable> */}
+      <Text>メニューを作成</Text>
     </SafeAreaView>
   );
 };
 
-export default Top;
+export default CreateManu;

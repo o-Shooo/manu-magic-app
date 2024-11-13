@@ -5,9 +5,10 @@ const Layout = () => {
   return (
     <Tabs>
       <Tabs.Screen
-        name="index"
+        name="(manu)"
         options={{
-          title: "１週間献立",
+          title: "１週間メニュー",
+          headerShown: false,
           tabBarIcon: ({ color }) => (
             <FontAwesome size={28} name="home" color={color} />
           ),
